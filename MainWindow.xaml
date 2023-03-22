@@ -71,7 +71,7 @@
 
                 <Grid x:Name="GridParent"
                       ShowGridLines="True"
-                      Height="450">
+                      Height="470">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="123*" />
                         <ColumnDefinition Width="345*" />
@@ -80,7 +80,7 @@
                         <ColumnDefinition Width="155*" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="31" />
+                        <RowDefinition Height="37" />
                         <RowDefinition Height="128*" />
                         <RowDefinition Height="128*" />
                         <RowDefinition Height="128*" />
@@ -88,29 +88,35 @@
                     </Grid.RowDefinitions>
 
                     <TextBlock x:Name="ColumnHeader1"
+                               Grid.Column="0"
+                               Grid.Row="0"
                                Text="Прием пищи"
                                Style="{StaticResource TextStyleInfo}"
-                               Margin="0,3,0,0"  />
+                               Margin="0,0,0,0" VerticalAlignment="Top" FontSize="16" TextDecorations="{x:Null}" />
                     <TextBlock x:Name="ColumnHeader2"
                                Grid.Column="1"
+                               Grid.Row="0"
                                Text="Блюдо"
                                Style="{StaticResource TextStyleInfo}"
-                               Margin="0,3,0,0" />
+                               Margin="0" VerticalAlignment="Top" FontSize="16" TextDecorations="{x:Null}" />
                     <TextBlock x:Name="ColumnHeader3"
                                Grid.Column="2"
+                               Grid.Row="0"
                                Text="Выход блюд"
                                Style="{StaticResource TextStyleInfo}"
-                               Margin="0,3,0,0"/>
+                               Margin="0,0,0,0" VerticalAlignment="Top" FontSize="16" TextDecorations="{x:Null}"/>
                     <TextBlock x:Name="ColumnHeader4"
                                Grid.Column="3"
+                               Grid.Row="0"
                                Text="Масса порций"
                                Style="{StaticResource TextStyleInfo}"
-                               Margin="0,3,0,0"/>
+                               Margin="0,0,0,0" VerticalAlignment="Top" FontSize="16" TextDecorations="{x:Null}"/>
                     <TextBlock x:Name="ColumnHeader5"
                                Grid.Column="4"
+                               Grid.Row="0"
                                Text="Повар"
                                Style="{StaticResource TextStyleInfo}"
-                               Margin="0,3,0,0" />
+                               Margin="0,0,0,0" VerticalAlignment="Top" FontSize="16" TextDecorations="{x:Null}" />
 
                     <TextBlock x:Name="Breakfast"
                                Grid.Row="1"
