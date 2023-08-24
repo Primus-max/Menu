@@ -773,62 +773,68 @@
                                     Grid.Row="0"
                                     Style="{StaticResource MaterialDesignHeadline6TextBlock}"
                                     Margin="8,8,8,16"
-                                    Text="Настройки" />
-                                <TextBlock
-                                    Margin="7 0 0 0"
-                                    Grid.Column="0"
-                                    Grid.Row="1"
-                                    Text="Заполнить руками"
-                                    VerticalAlignment="Center" />
+                                    Text="Сохранение" />
+                                <TextBlock Margin="7 0 0 20" Grid.Column="0" Grid.Row="1" Foreground="LightGray">
+                                    Программу разработал:
+                                    <LineBreak/>
+                                    Савчук Владимир Иванович (FedoTT)
+                                </TextBlock>
+
+                                <!--<TextBlock
+                                Margin="7 0 0 0"
+                                Grid.Column="0"
+                                Grid.Row="1"
+                                Text="Заполнить руками"
+                                VerticalAlignment="Center" />
                                 <TextBox
-                                    Grid.Column="0"
-                                    Grid.Row="2"
-                                    materialDesign:HintAssist.Hint="Выберите файл .excel"
-                                    Text="" />
+                                Grid.Column="0"
+                                Grid.Row="2"
+                                materialDesign:HintAssist.Hint="Выберите файл .excel"
+                                Text="" />-->
                                 <!--<TextBox x:Name="PathToSave"
                                 Grid.Column="0"
                                 Grid.Row="3"
                                 materialDesign:HintAssist.Hint="Куда сохранить"
                                 />-->
+                                <!--<CheckBox
+                                Grid.Column="1"
+                                Grid.Row="1"
+                                VerticalAlignment="Bottom" />
                                 <CheckBox
-                                    Grid.Column="1"
-                                    Grid.Row="1"
-                                    VerticalAlignment="Bottom" />
-                                <CheckBox
-                                    Grid.Column="1"
-                                    Grid.Row="2"
-                                    IsChecked="True"
-                                    VerticalAlignment="Bottom" />
+                                Grid.Column="1"
+                                Grid.Row="2"
+                                IsChecked="True"
+                                VerticalAlignment="Bottom" />-->
                                 <!--<Button x:Name="PathToSaveBtn"
                                 Padding="0"
                                 Grid.Column="1"
                                 Grid.Row="3"
                                 VerticalAlignment="Bottom"
                                 Content="{materialDesign:PackIcon Kind=Folder}" Click="SaveMenu_Click"/>-->
-                                <ComboBox
-                                    Grid.Column="0"
-                                    Grid.Row="4"
-                                    materialDesign:HintAssist.Hint="Выберите разрешение"
-                                    materialDesign:HintAssist.IsFloating="True"
-                                    MaxDropDownHeight="200"
-                                    Margin="8">
-                                    <ComboBoxItem
-                                        Content="25%" />
-                                    <ComboBoxItem
-                                        Content="50%" />
-                                    <ComboBoxItem
-                                        Content="75%" />
-                                    <ComboBoxItem
-                                        Content="100%" />
-                                    <ComboBoxItem
-                                        Content="150%" />
-                                    <ComboBoxItem
-                                        Content="200%" />
-                                    <ComboBoxItem
-                                        Content="250%" />
-                                    <ComboBoxItem
-                                        Content="500%" />
-                                </ComboBox>
+                                <!--<ComboBox
+                                Grid.Column="0"
+                                Grid.Row="4"
+                                materialDesign:HintAssist.Hint="Выберите разрешение"
+                                materialDesign:HintAssist.IsFloating="True"
+                                MaxDropDownHeight="200"
+                                Margin="8">
+                                <ComboBoxItem
+                                Content="25%" />
+                                <ComboBoxItem
+                                Content="50%" />
+                                <ComboBoxItem
+                                Content="75%" />
+                                <ComboBoxItem
+                                Content="100%" />
+                                <ComboBoxItem
+                                Content="150%" />
+                                <ComboBoxItem
+                                Content="200%" />
+                                <ComboBoxItem
+                                Content="250%" />
+                                <ComboBoxItem
+                                Content="500%" />
+                                </ComboBox>-->
                                 <StackPanel
                                     Grid.Row="5"
                                     Grid.ColumnSpan="2"
