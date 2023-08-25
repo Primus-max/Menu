@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Menu</id>
+    <version>1.0.0</version>
+    <authors>Menu</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="MaterialDesignColors" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="MaterialDesignThemes" version="4.7.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.WindowsAPICodePack-Shell" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/Decstop.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="Z:\Programming\ProjectC#\Menu\bin\Debug\net6.0-windows\Menu.runtimeconfig.json" target="lib\net6.0-windows7.0\Menu.runtimeconfig.json" />
+    <file src="Z:\Programming\ProjectC#\Menu\bin\Debug\net6.0-windows\Menu.dll" target="lib\net6.0-windows7.0\Menu.dll" />
+    <file src="Z:\Programming\ProjectC#\Menu\Decstop.ico" target="content\Decstop.ico" />
+    <file src="Z:\Programming\ProjectC#\Menu\Decstop.ico" target="contentFiles\any\net6.0-windows7.0\Decstop.ico" />
+  </files>
+</package>

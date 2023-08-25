@@ -777,7 +777,9 @@
                                 <TextBlock Margin="7 0 0 20" Grid.Column="0" Grid.Row="1" Foreground="LightGray">
                                     Программу разработал:
                                     <LineBreak/>
-                                    Савчук Владимир Иванович (FedoTT)
+                                    ос. Савчук Владимир Иванович (FedoTT)
+                                    <LineBreak/>
+                                    ФКУ ИК-3 ГУФСИН РОССИИ по Иркутской обл.
                                 </TextBlock>
 
                                 <!--<TextBlock
@@ -866,7 +868,6 @@
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
                 </StackPanel>
             </StackPanel>
-
         </Border>
     </Grid>
 
